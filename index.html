@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="box">
+        <h1 class="heading">Sorting Visualiser</h1>
+
+        
+        <span>
+            <select name="Algorithm" class="algo">
+                <option value="0">Algorithm</option>
+                 <option value="1">Bubble Sort</option>
+                 <option value="2">Selection Sort</option>
+                 <option value="3">Insertion Sort</option>
+                 <option value="4">Merge Sort</option>
+                 <option value="5">Quick Sort</option>
+         </select>
+        </span>
+
+        <span>
+            <select name="Size Of Array" class="size" >
+                <option value="0">Array Size</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="30">30</option>
+                
+            </select>
+        </span>
+        <span class="generateArray" >Generate Array</span>
+       <span class="sort" >Sort</span>
+
+       <div class="running-algo">
+           <h2 class="algo-inprocess">Sorting Algorithm</h2>
+       </div>
+    <div class="array"></div>
+    
+    </div>
+
+    <script src="Main.js" ></script>
+  
+
+     
+</body>
+</html>
