@@ -68,19 +68,20 @@ background: linear-gradient(90deg, rgba(134,127,186,1) 0%, rgba(178,198,238,1) 5
     color: white;
     font-weight: bold;
     font-size:medium;
-    padding: 7px;
+    padding: 8px;
     border-radius: 5px;
 }
 
 
 select{
-    width: 100px;
+    width: 120px;
     height: 30px;
     border-radius: 5px;
     color: white;
     font-weight: bold;
     background-color: rgb(2, 58, 122);
 }
+
 
 
 .algo-inprocess{
